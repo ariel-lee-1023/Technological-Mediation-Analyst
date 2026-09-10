@@ -1,0 +1,55 @@
+{
+  "generated": "2026-09-10",
+  "estimator": "script-density (bookrefs.tokens); not word-split",
+  "sources": [
+    {
+      "filename": "What-Things-Do---Philosophical-Reflections-On-Technology-Agency-And-Design-Peter.md",
+      "role": "user-supplied source",
+      "sha256": "24960fff16526d3a702d780f7330761754b087b8c7b4e0d4129a58bae34fce49",
+      "bytes": 664559,
+      "estimated_extracted_tokens": 163972
+    },
+    {
+      "filename": "Technology-and-the-lifeworld-from-garden-to-earth-Ihde-Don-1934-.md",
+      "role": "user-supplied source",
+      "sha256": "7f06eb7f640cd2a8095400f0869f4227cb0901b5150ecb96a67164ad58fb6c96",
+      "bytes": 717779,
+      "estimated_extracted_tokens": 179159
+    },
+    {
+      "filename": "Postphenomenological-Investigations-Essays-on-Human-Technology-Relations-Robert-.md",
+      "role": "user-supplied source",
+      "sha256": "4aad7a339771c859a3d71a91fe1c6d7fce09bd6429fcc36c9f5e28e0c27169b8",
+      "bytes": 751772,
+      "estimated_extracted_tokens": 185632
+    },
+    {
+      "filename": "Moralizing-Technology-Understanding-and-Designing-the-Morality-of-Things-Peter-P.md",
+      "role": "user-supplied source",
+      "sha256": "0cd5d1e1f25d8ca68c78c87ef0320b2cab304ec533f5cc6200b122e4b20759fb",
+      "bytes": 110471,
+      "estimated_extracted_tokens": 27369
+    },
+    {
+      "filename": "Moral-Hermeneutics-and-Technology-Olya-Kudina.md",
+      "role": "user-supplied source",
+      "sha256": "0c0cd2b8ae65bc8c3dbaab394f13ccb17fb0fd780db1b8ef99c82080b7529c87",
+      "bytes": 451827,
+      "estimated_extracted_tokens": 112312
+    },
+    {
+      "filename": "Distracted-from-Meaning-A-Philosophy-of-Smartphones-Tiger-C-Roholt.md",
+      "role": "user-supplied source",
+      "sha256": "a259f2d5b1e81380ee3967953394d65581bfee20783e393513bd6b5996961c92",
+      "bytes": 450918,
+      "estimated_extracted_tokens": 111384
+    },
+    {
+      "filename": "Moralizing Technology Understanding and Designing the Morality of Things (Peter-Paul Verbeek).pdf",
+      "role": "repair source",
+      "sha256": "afc4408dedeaad6b364de7705ac408ce3462666e2d05380a8819981a9920c580",
+      "bytes": 5258847,
+      "estimated_extracted_tokens": 126275
+    }
+  ]
+}

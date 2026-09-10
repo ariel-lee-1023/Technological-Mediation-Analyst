@@ -1,0 +1,61 @@
+{
+  "errors": [],
+  "warnings": [],
+  "facts": {
+    "skill_root": ".agents/skills/technological-mediation-analyst",
+    "master_body_tokens": 2743,
+    "master_budget": 3400,
+    "master_capabilities": 5,
+    "references": {
+      "reference-ihde-technology-lifeworld.md": {
+        "tokens": 3630,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 8,
+        "budget": 7543
+      },
+      "reference-kudina-moral-hermeneutics.md": {
+        "tokens": 4201,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 5,
+        "budget": 6654
+      },
+      "reference-roholt-distracted-from-meaning.md": {
+        "tokens": 4338,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 7,
+        "budget": 7269
+      },
+      "reference-rosenberger-verbeek-postphenomenological-investigations.md": {
+        "tokens": 4816,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 16,
+        "budget": 9300
+      },
+      "reference-verbeek-moralizing-technology.md": {
+        "tokens": 4392,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 8,
+        "budget": 7543
+      },
+      "reference-verbeek-what-things-do.md": {
+        "tokens": 3667,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 7,
+        "budget": 7269
+      }
+    },
+    "books": 6
+  }
+}
