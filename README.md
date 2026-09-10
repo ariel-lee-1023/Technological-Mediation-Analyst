@@ -1,47 +1,106 @@
 # Technological Mediation Analyst
 
-An Agent Skills project for analyzing how technologies change perception, action, moral judgment, and meaningful life. Built from six books, it combines a shared reasoning core with one reference per source, loaded when the question needs it.
+An Agent Skill for analyzing how technologies reshape **perception, action, moral judgment, and meaningful life**. It supports postphenomenological analysis, product and UX design review, AI and automation cases, qualitative research, and reflection on everyday technological practices.
 
-The analyst starts with a concrete encounter and follows what the technology makes visible, possible, expected, or difficult. It can help review a design, analyze an AI or automation case, study changing values, interpret technology-use interviews, or examine distraction from meaningful activity.
+Distilled from **six books**, it combines a shared reasoning core with source references loaded only when the question needs them. The analyst starts with a concrete encounter and follows what the technology makes visible, possible, expected, or difficult—then explains why those changes matter.
 
-## Use
+## Layout
 
-Open this repository as a project in a compatible host that discovers `.agents/skills/`. The skill name is `technological-mediation-analyst`. To add it to another project, copy the complete `.agents/skills/technological-mediation-analyst/` directory into that project's `.agents/skills/` directory. Keep the references beside `SKILL.md` so its relative links work.
+```text
+SKILL.md                         # expert core and task-based loading triggers
+references/
+  reference-<source-slug>.md      # one standalone distillation per book
+AGENTS.md                        # default project role and working standards
+README.md
+LICENSE
+.gitignore
+.agents/skills/
+  technological-mediation-analyst -> ../..
+fidelity-ledger/                  # provenance, coverage, evaluation, validation
+```
+
+`SKILL.md` and `references/` at the root are the canonical content. The relative symlink exposes the same skill to project discovery without duplicating it. Root `AGENTS.md` guides relevant conversations when this repository is opened as a project. The fidelity ledger is maintainer documentation, separate from the domain references.
+
+## Sources
+
+### Foundations: relations, material agency, and criticism
+
+| Source | Distillation and contribution |
+|---|---|
+| **Technology and the Lifeworld: From Garden to Earth** — Don Ihde, Indiana University Press, 1990 | [Ihde](references/reference-ihde-technology-lifeworld.md): embodiment, hermeneutic relations, multistability, culture, and decisional burden |
+| **What Things Do: Philosophical Reflections on Technology, Agency, and Design** — Peter-Paul Verbeek; translated by Robert P. Crease, Pennsylvania State University Press, 2005 | [What Things Do](references/reference-verbeek-what-things-do.md): material mediation, scripts, engagement, and durable design |
+| **Postphenomenological Investigations: Essays on Human–Technology Relations** — Robert Rosenberger and Peter-Paul Verbeek, eds., Lexington Books, 2015 | [Postphenomenological Investigations](references/reference-rosenberger-verbeek-postphenomenological-investigations.md): sixteen attributed contributions, field composition, Kiran's dimensions, cases, and critical interlocutors |
+
+### Ethics: design, moral subjects, and changing values
+
+| Source | Distillation and contribution |
+|---|---|
+| **Moralizing Technology: Understanding and Designing the Morality of Things** — Peter-Paul Verbeek, University of Chicago Press, 2011 | [Moralizing Technology](references/reference-verbeek-moralizing-technology.md): moral agency, subject formation, design anticipation, and participatory assessment |
+| **Moral Hermeneutics and Technology: Making Moral Sense through Human-Technology-World Relations** — Olya Kudina, Lexington Books, 2024 | [Moral Hermeneutics and Technology](references/reference-kudina-moral-hermeneutics.md): value dynamism, appropriation, the hermeneutic lemniscate, and IPA |
+
+### Meaning: attention and shared practices
+
+| Source | Distillation and contribution |
+|---|---|
+| **Distracted from Meaning: A Philosophy of Smartphones** — Tiger C. Roholt, Bloomsbury Academic, 2023 | [Distracted from Meaning](references/reference-roholt-distracted-from-meaning.md): developed experience, focal practices, identity-work, and distraction beyond performance costs |
+
+## Install
+
+Clone into your agent's configured skill directory, using `technological-mediation-analyst` as the folder name. For a host configured to discover skills in `~/.agents/skills/`:
+
+```bash
+git clone https://github.com/ariel-lee-1023/Technological-Mediation-Analyst-.git ~/.agents/skills/technological-mediation-analyst
+```
+
+For another host, use its configured skill location and keep the complete root `SKILL.md` and `references/` tree together. Alternatively, clone to a project directory and open the repository there; `AGENTS.md` and the `.agents/skills/` alias provide project entry points. If a checkout does not preserve symlinks, use the canonical root files directly or install them in the host's skill directory.
+
+## Usage
+
+```text
+technological-mediation-analyst
+technological-mediation-analyst about <technology or practice>
+technological-mediation-analyst for <book or concept>
+```
 
 Examples:
 
-- “Use technological-mediation-analyst to review this AI writing assistant. What does it change about writing, learning, and authorship?”
+- “Review this AI writing assistant. What does it change about writing, learning, and authorship?”
 - “Analyze how a workplace productivity score changes what workers and managers treat as good work.”
 - “Would automating this task remove a burden or remove meaningful participation? Compare the alternatives.”
 - “Help design an interview study about how people interpret privacy when using wearable cameras.”
 - “Explain the difference between Ihde's multistability, Verbeek's moral mediation, and Kudina's hermeneutic lemniscate using this case.”
 
-For better analysis, describe the specific feature, affected people, setting, present practice, and decision you need to make. The analyst can also work with incomplete information by identifying assumptions and distinguishing scenarios from observed effects.
+Describe the feature, affected people, setting, present practice, and decision you need to make. With incomplete information, the analyst can develop a conditional account while identifying what evidence would resolve the uncertainty.
 
-## Contents
+The core supplies the shared reasoning stance. Detailed questions load the smallest useful set of references; comparison and design tasks combine complementary or conflicting sources. The fidelity ledger is not loaded as an additional source of domain advice.
 
-| File | Contribution |
-|---|---|
-| [SKILL.md](.agents/skills/technological-mediation-analyst/SKILL.md) | Shared reasoning and task-based loading triggers |
-| [Ihde](.agents/skills/technological-mediation-analyst/references/reference-ihde-technology-lifeworld.md) | Human–technology relations, multistability, culture, decisional burden |
-| [Verbeek: What Things Do](.agents/skills/technological-mediation-analyst/references/reference-verbeek-what-things-do.md) | Material mediation, scripts, engagement, durable design |
-| [Rosenberger and Verbeek, editors](.agents/skills/technological-mediation-analyst/references/reference-rosenberger-verbeek-postphenomenological-investigations.md) | Sixteen chapter-attributed contributions, including critical disagreements |
-| [Verbeek: Moralizing Technology](.agents/skills/technological-mediation-analyst/references/reference-verbeek-moralizing-technology.md) | Moral agency, subject formation, design anticipation and assessment |
-| [Kudina](.agents/skills/technological-mediation-analyst/references/reference-kudina-moral-hermeneutics.md) | Value dynamism, appropriation, moral hermeneutics, IPA |
-| [Roholt](.agents/skills/technological-mediation-analyst/references/reference-roholt-distracted-from-meaning.md) | Developed experience, focal practices, identity-work, smartphone distraction |
+## What kind of distillation this is
 
-Each source reference includes a mental model, chapter-based frameworks, one reconstructed worked example, decision rules, and takeaways. The always-loaded core stays compact; the full books are not included.
+Structure rather than chapter recap. Each reference preserves named concepts, defines key terms, reconstructs one source example, and ends with decision rules and takeaways. The [coverage ledger](fidelity-ledger/source-and-coverage-ledger.md) records what was retained, compressed, or excluded. The books themselves are not distributed here.
 
-## What the synthesis preserves
+The synthesis distinguishes material agency from consciousness and blameworthiness. Multistability does not become a claim that users can freely reinterpret institutional constraints; acceptance does not become moral justification. Convenience and engagement are evaluated in concrete practices, including effects on other participants.
 
-Material agency is distinguished from consciousness and blameworthiness. Multistability does not become a claim that users can freely reinterpret institutional constraints. Technological acceptance does not become moral justification. Convenience and meaningful engagement are evaluated in concrete practices, including effects on other participants.
+The edited collection's authors retain their own positions. Feenberg's institutional criticism, Borgmann's normative challenge, and Verbeek's distinction between effort and meaningful participation remain visible rather than being flattened into consensus.
 
-The collection's contributors retain their own positions. Feenberg's institutional criticism, Borgmann's normative challenge, and Verbeek's criticism of equating effort with meaning are kept visible. Applications to current AI systems are identified as extensions of these frameworks, with present technical facts requiring separate evidence.
+## Scope and limits
 
-## Sources and validation
+Strongest on human–technology relations, postphenomenological criticism, moral mediation, values in use, design reasoning, qualitative inquiry, and meaningful participation. Contemporary AI cases are applications of these frameworks; the corpus does not establish current model capabilities or causal effect sizes.
 
-Created with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs) at study depth. The build uses the six supplied Markdown books and repairs substantial extraction loss in *Moralizing Technology* against its matching local PDF.
+Historical clinical and legal examples are philosophical case material, not present guidance. Current scientific, clinical, technical, or jurisdiction-specific facts require separate evidence. The Ihde conversion has OCR losses; substantial missing text in Moralizing Technology was repaired against the matching PDF. Exact quotations and disputed textual details require consulting the original source.
 
-See [the source and coverage ledger](docs/source-and-coverage-ledger.md) for bibliographic details, extraction limitations, retained and compressed material, and maintenance guidance. See [the evaluation cases](docs/evaluation.md) for editorial checks and their limits. Machine validation results are recorded in [validation.json](docs/validation.json).
+## Provenance and validation
 
-The reference texts are original analytical syntheses. Source authors and publishers retain rights in the underlying works; no license to those works is conveyed by this repository.
+Built with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs) at study depth. Repository packaging follows [Cognitive Neuroscience Expert](https://github.com/ariel-lee-1023/Cognitive-Neuroscience-Expert), with maintainer records in `fidelity-ledger/`.
+
+- [Source and coverage ledger](fidelity-ledger/source-and-coverage-ledger.md): editions, source quality, coverage, synthesis boundaries, and maintenance guidance.
+- [Source manifest](fidelity-ledger/source-manifest.json): source basenames and hashes without private absolute paths.
+- [Evaluation cases](fidelity-ledger/evaluation.md): editorial acceptance probes and their limitations; not an independent model benchmark.
+- [Validation results](fidelity-ledger/validation.json): executed structural, routing, and budget checks for the published layout.
+
+The canonical skill and references also pass the generated-instruction pattern scan. This advisory scan does not establish absence of every possible issue. No raw books, temporary corpus, or source attachments are published.
+
+## License
+
+[MIT](LICENSE) covers the original work here: the skill structure, expert core, loading guidance, project instructions, documentation, and the original synthetic distillation text.
+
+The underlying books and other third-party material retain their own terms and are not relicensed by this repository. The references restate concepts and reasoning in condensed form rather than reproducing the source works; this license conveys no rights in those works.

@@ -1,6 +1,6 @@
 # Source and coverage ledger
 
-This is maintainer documentation, outside the runtime skill. It records provenance, editorial selection, and limits; the host's topic triggers load only the six source references.
+This is maintainer documentation, separate from the runtime references. It records provenance, editorial selection, and limits; the host's topic triggers load only the six source references.
 
 ## Build decisions
 
@@ -10,7 +10,7 @@ This is maintainer documentation, outside the runtime skill. It records provenan
 - Inputs: six user-supplied Markdown books. *Moralizing Technology* additionally uses the matching PDF found beside its Markdown conversion, to repair substantial missing prose.
 - Reading: table-of-contents and heading probes followed by bounded, cleaned passages. The entire combined corpus was not loaded as one reading. Original extracted text was left intact during analysis.
 - Authorial terminology was retained where useful; prose was synthesized. Source instructions, promotional text, rights notices, and document furniture were not adopted as operating instructions.
-- Human-facing provenance and evaluation records are separate from `.agents/skills/` and its trigger-loaded references.
+- Human-facing provenance and evaluation records are kept in `fidelity-ledger/`, separate from the canonical `SKILL.md` and its trigger-loaded `references/`.
 
 ## Bibliography and extraction quality
 

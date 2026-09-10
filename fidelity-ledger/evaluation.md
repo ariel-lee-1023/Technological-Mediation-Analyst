@@ -30,9 +30,10 @@ These sketches were composed during review to check whether the core supports a 
 
 ## Machine checks
 
-- `validate_library.py`: one discoverable skill; valid matching slug; six sibling references; all references reachable from loading links; valid links; master and references within budgets and hard caps. Result saved in `validation.json`.
-- `scan_generated_skill.py`: executed on the complete runtime skill. No injected-instruction patterns found. Advisory pattern scanning cannot establish absence of every possible issue.
+- `validate_library.py --layout published-repo`: root skill with a valid discovery alias and required packaging files; valid matching slug; six sibling references; all references reachable from loading links; valid links; master and references within budgets and hard caps. Result saved in `validation.json`.
+- `scan_generated_skill.py`: executed separately on the canonical `SKILL.md` and `references/`. No injected-instruction patterns found. Advisory pattern scanning cannot establish absence of every possible issue.
 - `reference_budget.py`: all files below caps. Six under-target size advisories prompted the coverage ledger review; the targets are not minimum lengths.
+- Published-layout migration: the core and all six references were compared byte-for-byte with the preceding commit and are unchanged. All 20 repository-relative Markdown links resolve; the discovery symlink resolves to the canonical root. The publishing-profile validator is covered by six regression cases; the metatool's complete 236-test suite passes.
 - Final delivery audit: confirm all repository-relative Markdown links resolve, every reference has the required sections, no raw books or temporary corpora are tracked, and the published branch matches the local commit.
 
 ## Remaining evaluation limits

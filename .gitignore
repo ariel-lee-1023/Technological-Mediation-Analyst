@@ -1,4 +1,8 @@
 .DS_Store
+._*
+.idea/
+.vscode/
+*.swp
 __pycache__/
 *.pyc
 .venv/
@@ -6,3 +10,10 @@ full_text.txt
 metadata.json
 corpus/
 raw-sources/
+*.pdf
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.docx
+*.rtf
