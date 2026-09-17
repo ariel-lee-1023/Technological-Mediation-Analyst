@@ -1,6 +1,6 @@
 # Source and coverage ledger
 
-This is maintainer documentation, separate from the runtime references. It records provenance, editorial selection, and limits; the host's topic triggers load only the six source references.
+This is maintainer documentation, separate from the runtime references. It records provenance, editorial selection, and limits; the host's topic triggers load only source references (six initially; eight after the Harari extension).
 
 ## Build decisions
 
@@ -75,3 +75,7 @@ The framework sections also contain some multi-concept bullets and chapter-attri
 4. Add task-based loading links. Change the core only where the source materially changes reasoning or judgment.
 5. Re-run structural validation and the generated-instruction scan, then review the ordinary, uncertain, conflicting, and out-of-scope cases in `evaluation.md`.
 6. Recheck current technological or institutional facts for each application. Publication dates are not a freshness guarantee.
+
+## Harari extension — 2026-09-17
+
+The initial six-source coverage above remains historical build evidence. The two-book addition follows the existing repository architecture and leaves all six original references unchanged. See [harari-extension.md](harari-extension.md) for editions, repair, chapter coverage, critical synthesis, and evaluation limits; [coverage-audit.md](coverage-audit.md) records the additional exception samples. The source manifest now includes the two supplied Markdown files and the Homo Deus PDF repair source. Runtime count is eight books, even though the manifest also records unusable input and repair files.

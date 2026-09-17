@@ -1,0 +1,880 @@
+{
+  "sources": {
+    "nexus": {
+      "lines": 6674,
+      "output_budget": 8275
+    },
+    "homo-deus-ocr": {
+      "lines": 24141,
+      "output_budget": 8275
+    }
+  },
+  "reads": [
+    {
+      "source": "nexus",
+      "start": 135,
+      "end": 163,
+      "tokens": 3533,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 235,
+      "end": 270,
+      "tokens": 4047,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 313,
+      "end": 341,
+      "tokens": 4125,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 429,
+      "end": 451,
+      "tokens": 2688,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 245,
+      "end": 261,
+      "tokens": 2326,
+      "reason": "verification",
+      "question": "Does connection replace truth as an ideal?",
+      "resolution": "No: Harari defines truth as accurate partial representation while broadening information beyond it."
+    },
+    {
+      "source": "nexus",
+      "start": 469,
+      "end": 481,
+      "tokens": 1734,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 545,
+      "end": 551,
+      "tokens": 599,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 269,
+      "end": 283,
+      "tokens": 2183,
+      "reason": "verification",
+      "question": "Does the overlapping passage preserve the qualification or source distinction needed for the reconstruction?",
+      "resolution": "Retained truth versus connection and the distinction between historical case and inference; clipped tool output is not treated as complete reading."
+    },
+    {
+      "source": "nexus",
+      "start": 753,
+      "end": 767,
+      "tokens": 2094,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 823,
+      "end": 837,
+      "tokens": 1788,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1343,
+      "end": 1351,
+      "tokens": 1704,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 675,
+      "end": 677,
+      "tokens": 0,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 687,
+      "end": 693,
+      "tokens": 604,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 777,
+      "end": 781,
+      "tokens": 391,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 807,
+      "end": 811,
+      "tokens": 291,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1197,
+      "end": 1201,
+      "tokens": 1145,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1309,
+      "end": 1313,
+      "tokens": 1063,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1387,
+      "end": 1395,
+      "tokens": 1760,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1507,
+      "end": 1515,
+      "tokens": 1324,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1753,
+      "end": 1765,
+      "tokens": 2363,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1858,
+      "end": 1866,
+      "tokens": 1445,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1955,
+      "end": 1963,
+      "tokens": 895,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 2153,
+      "end": 2157,
+      "tokens": 839,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 694,
+      "end": 702,
+      "tokens": 1729,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 790,
+      "end": 802,
+      "tokens": 1737,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1205,
+      "end": 1217,
+      "tokens": 2374,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1521,
+      "end": 1529,
+      "tokens": 613,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 1769,
+      "end": 1777,
+      "tokens": 1507,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 2009,
+      "end": 2013,
+      "tokens": 944,
+      "reason": "initial"
+    },
+    {
+      "source": "nexus",
+      "start": 2067,
+      "end": 2071,
+      "tokens": 655,
+      "reason": "initial"
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3083,
+      "end": 3125,
+      "tokens": 494,
+      "reason": "initial",
+      "pdf_page": 73
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3129,
+      "end": 3172,
+      "tokens": 546,
+      "reason": "initial",
+      "pdf_page": 74
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3176,
+      "end": 3219,
+      "tokens": 543,
+      "reason": "initial",
+      "pdf_page": 75
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3223,
+      "end": 3266,
+      "tokens": 543,
+      "reason": "initial",
+      "pdf_page": 76
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3569,
+      "end": 3612,
+      "tokens": 531,
+      "reason": "initial",
+      "pdf_page": 85
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3616,
+      "end": 3659,
+      "tokens": 532,
+      "reason": "initial",
+      "pdf_page": 86
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3663,
+      "end": 3706,
+      "tokens": 540,
+      "reason": "initial",
+      "pdf_page": 87
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 3710,
+      "end": 3730,
+      "tokens": 262,
+      "reason": "initial",
+      "pdf_page": 88
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15223,
+      "end": 15265,
+      "tokens": 558,
+      "reason": "initial",
+      "pdf_page": 360
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15269,
+      "end": 15288,
+      "tokens": 237,
+      "reason": "initial",
+      "pdf_page": 361
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 11199,
+      "end": 11235,
+      "tokens": 421,
+      "reason": "initial",
+      "pdf_page": 264
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 11239,
+      "end": 11279,
+      "tokens": 495,
+      "reason": "initial",
+      "pdf_page": 265
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 11283,
+      "end": 11325,
+      "tokens": 535,
+      "reason": "initial",
+      "pdf_page": 266
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15292,
+      "end": 15327,
+      "tokens": 375,
+      "reason": "initial",
+      "pdf_page": 362
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15331,
+      "end": 15374,
+      "tokens": 536,
+      "reason": "initial",
+      "pdf_page": 363
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15378,
+      "end": 15421,
+      "tokens": 538,
+      "reason": "initial",
+      "pdf_page": 364
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15425,
+      "end": 15466,
+      "tokens": 541,
+      "reason": "initial",
+      "pdf_page": 365
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15470,
+      "end": 15505,
+      "tokens": 395,
+      "reason": "initial",
+      "pdf_page": 366
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 15509,
+      "end": 15552,
+      "tokens": 531,
+      "reason": "initial",
+      "pdf_page": 367
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 16653,
+      "end": 16695,
+      "tokens": 551,
+      "reason": "initial",
+      "pdf_page": 392
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 16699,
+      "end": 16742,
+      "tokens": 539,
+      "reason": "initial",
+      "pdf_page": 393
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 16746,
+      "end": 16789,
+      "tokens": 515,
+      "reason": "initial",
+      "pdf_page": 394
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 16793,
+      "end": 16835,
+      "tokens": 524,
+      "reason": "initial",
+      "pdf_page": 395
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17256,
+      "end": 17299,
+      "tokens": 537,
+      "reason": "initial",
+      "pdf_page": 405
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17303,
+      "end": 17346,
+      "tokens": 539,
+      "reason": "initial",
+      "pdf_page": 406
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17350,
+      "end": 17392,
+      "tokens": 545,
+      "reason": "initial",
+      "pdf_page": 407
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17396,
+      "end": 17439,
+      "tokens": 545,
+      "reason": "initial",
+      "pdf_page": 408
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17443,
+      "end": 17485,
+      "tokens": 514,
+      "reason": "initial",
+      "pdf_page": 409
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17706,
+      "end": 17742,
+      "tokens": 452,
+      "reason": "initial",
+      "pdf_page": 415
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17746,
+      "end": 17788,
+      "tokens": 507,
+      "reason": "initial",
+      "pdf_page": 416
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17792,
+      "end": 17835,
+      "tokens": 548,
+      "reason": "initial",
+      "pdf_page": 417
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 17839,
+      "end": 17881,
+      "tokens": 537,
+      "reason": "initial",
+      "pdf_page": 418
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18287,
+      "end": 18328,
+      "tokens": 525,
+      "reason": "initial",
+      "pdf_page": 428
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18332,
+      "end": 18374,
+      "tokens": 511,
+      "reason": "initial",
+      "pdf_page": 429
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18378,
+      "end": 18420,
+      "tokens": 553,
+      "reason": "initial",
+      "pdf_page": 430
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18424,
+      "end": 18467,
+      "tokens": 547,
+      "reason": "initial",
+      "pdf_page": 431
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18471,
+      "end": 18513,
+      "tokens": 512,
+      "reason": "initial",
+      "pdf_page": 432
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18517,
+      "end": 18551,
+      "tokens": 431,
+      "reason": "initial",
+      "pdf_page": 433
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 18555,
+      "end": 18599,
+      "tokens": 555,
+      "reason": "initial",
+      "pdf_page": 434
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19128,
+      "end": 19170,
+      "tokens": 538,
+      "reason": "initial",
+      "pdf_page": 447
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19174,
+      "end": 19216,
+      "tokens": 516,
+      "reason": "initial",
+      "pdf_page": 448
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19266,
+      "end": 19309,
+      "tokens": 542,
+      "reason": "initial",
+      "pdf_page": 450
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19313,
+      "end": 19356,
+      "tokens": 543,
+      "reason": "initial",
+      "pdf_page": 451
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19360,
+      "end": 19402,
+      "tokens": 540,
+      "reason": "initial",
+      "pdf_page": 452
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19406,
+      "end": 19447,
+      "tokens": 517,
+      "reason": "initial",
+      "pdf_page": 453
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19820,
+      "end": 19862,
+      "tokens": 536,
+      "reason": "initial",
+      "pdf_page": 462
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19866,
+      "end": 19909,
+      "tokens": 541,
+      "reason": "initial",
+      "pdf_page": 463
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19913,
+      "end": 19955,
+      "tokens": 554,
+      "reason": "initial",
+      "pdf_page": 464
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19959,
+      "end": 20001,
+      "tokens": 540,
+      "reason": "initial",
+      "pdf_page": 465
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 20005,
+      "end": 20049,
+      "tokens": 554,
+      "reason": "initial",
+      "pdf_page": 466
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 20053,
+      "end": 20073,
+      "tokens": 165,
+      "reason": "initial",
+      "pdf_page": 467
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 2713,
+      "end": 2756,
+      "tokens": 543,
+      "reason": "initial",
+      "pdf_page": 65
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 2760,
+      "end": 2800,
+      "tokens": 489,
+      "reason": "initial",
+      "pdf_page": 66
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 2804,
+      "end": 2846,
+      "tokens": 552,
+      "reason": "initial",
+      "pdf_page": 67
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 4238,
+      "end": 4280,
+      "tokens": 568,
+      "reason": "initial",
+      "pdf_page": 104
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 4284,
+      "end": 4313,
+      "tokens": 338,
+      "reason": "initial",
+      "pdf_page": 105
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 9000,
+      "end": 9035,
+      "tokens": 438,
+      "reason": "initial",
+      "pdf_page": 215
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 9039,
+      "end": 9082,
+      "tokens": 546,
+      "reason": "initial",
+      "pdf_page": 216
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 10068,
+      "end": 10102,
+      "tokens": 453,
+      "reason": "initial",
+      "pdf_page": 239
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 10106,
+      "end": 10149,
+      "tokens": 536,
+      "reason": "initial",
+      "pdf_page": 240
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 4317,
+      "end": 4359,
+      "tokens": 517,
+      "reason": "initial",
+      "pdf_page": 106
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 4363,
+      "end": 4410,
+      "tokens": 485,
+      "reason": "initial",
+      "pdf_page": 107
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 4414,
+      "end": 4457,
+      "tokens": 538,
+      "reason": "initial",
+      "pdf_page": 108
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 7456,
+      "end": 7498,
+      "tokens": 536,
+      "reason": "initial",
+      "pdf_page": 176
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 7502,
+      "end": 7544,
+      "tokens": 534,
+      "reason": "initial",
+      "pdf_page": 177
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 7872,
+      "end": 7905,
+      "tokens": 438,
+      "reason": "initial",
+      "pdf_page": 189
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 7909,
+      "end": 7951,
+      "tokens": 545,
+      "reason": "initial",
+      "pdf_page": 190
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 12455,
+      "end": 12498,
+      "tokens": 562,
+      "reason": "initial",
+      "pdf_page": 295
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 12502,
+      "end": 12544,
+      "tokens": 537,
+      "reason": "initial",
+      "pdf_page": 296
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 14718,
+      "end": 14760,
+      "tokens": 561,
+      "reason": "initial",
+      "pdf_page": 348
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 14764,
+      "end": 14806,
+      "tokens": 553,
+      "reason": "initial",
+      "pdf_page": 349
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 14810,
+      "end": 14853,
+      "tokens": 560,
+      "reason": "initial",
+      "pdf_page": 350
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 14932,
+      "end": 14973,
+      "tokens": 538,
+      "reason": "initial",
+      "pdf_page": 353
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 5854,
+      "end": 5896,
+      "tokens": 545,
+      "reason": "initial",
+      "pdf_page": 140
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 5900,
+      "end": 5940,
+      "tokens": 330,
+      "reason": "initial",
+      "pdf_page": 141
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19543,
+      "end": 19585,
+      "tokens": 495,
+      "reason": "initial",
+      "pdf_page": 456
+    },
+    {
+      "source": "homo-deus-ocr",
+      "start": 19589,
+      "end": 19631,
+      "tokens": 547,
+      "reason": "initial",
+      "pdf_page": 457
+    },
+    {
+      "source": "nexus",
+      "start": 724,
+      "end": 732,
+      "tokens": 593,
+      "reason": "coverage audit",
+      "question": "What qualification beyond the initial core concepts changes diagnosis?",
+      "resolution": "Record informational saturation and reputation scoring; Inquisition counterexample prevents equating decentralization alone with truth."
+    },
+    {
+      "source": "nexus",
+      "start": 1461,
+      "end": 1469,
+      "tokens": 1754,
+      "reason": "coverage audit",
+      "question": "What qualification beyond the initial core concepts changes diagnosis?",
+      "resolution": "Record informational saturation and reputation scoring; Inquisition counterexample prevents equating decentralization alone with truth."
+    },
+    {
+      "source": "nexus",
+      "start": 714,
+      "end": 720,
+      "tokens": 706,
+      "reason": "coverage audit",
+      "question": "What qualification beyond the initial core concepts changes diagnosis?",
+      "resolution": "Record informational saturation and reputation scoring; Inquisition counterexample prevents equating decentralization alone with truth."
+    },
+    {
+      "source": "nexus",
+      "start": 734,
+      "end": 738,
+      "tokens": 549,
+      "reason": "initial"
+    }
+  ],
+  "measurement_note": "Token estimates measure cleaned text emitted for inspection, not provider usage. Some Nexus outputs were truncated by tool output limits: treat counts as upper bounds on text actually visible, and do not infer complete reading of every recorded span. Empty boilerplate spans are recorded with zero tokens. Homo Deus offsets refer to the reconstructed page-marked OCR corpus; page numbers also recorded.",
+  "audit_limits": "Offsets track text emitted in bounded probes. Headings, search listings, bibliographic checks and three rendered-page visual checks are separate from text token accounting. Nexus tool clipping makes the input-token number an upper bound. No claim of exhaustive book coverage."
+}

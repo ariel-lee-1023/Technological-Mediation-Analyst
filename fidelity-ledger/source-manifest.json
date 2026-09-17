@@ -50,6 +50,35 @@
       "sha256": "afc4408dedeaad6b364de7705ac408ce3462666e2d05380a8819981a9920c580",
       "bytes": 5258847,
       "estimated_extracted_tokens": 126275
+    },
+    {
+      "filename": "Nexus-A-Brief-History-of-Information-Networks-from-the-Stone-Age-to-AI-Yuval-Noa.md",
+      "role": "user-supplied source",
+      "sha256": "4d56a15832b02e92250606b3a03973f69162658256222056eccff613bd3d2772",
+      "bytes": 1207058,
+      "estimated_extracted_tokens": 298386,
+      "edition": "Random House, 2024, first US edition",
+      "language": "English"
+    },
+    {
+      "filename": "Homo-Deus-Yuval-Noah-Harari.md",
+      "role": "unusable supplied conversion",
+      "sha256": "66b78a45af726d994b273bf5dae78597c26f5c4e43d51b86c27814e05324f160",
+      "bytes": 12452,
+      "estimated_extracted_tokens": 3113,
+      "quality": "Image placeholders and page markers; not usable prose; excluded from semantic extraction."
+    },
+    {
+      "filename": "Homo Deus (Yuval Noah Harari).pdf",
+      "role": "OCR repair source",
+      "sha256": "01f8d03828909f7d5e7c586e3a6f0cb4759f51c5cd3e360af3056b07909339db",
+      "bytes": 6392272,
+      "estimated_extracted_tokens": 269807,
+      "edition": "Pustaka Alvabet, first printing May 2018; translated by Yanto Musthofa",
+      "language": "Indonesian",
+      "pdf_pages": 540,
+      "ocr": "Tesseract eng, PSM 3, raster scale 2; no text layer; targeted visual checks on PDF pages 6, 394, 463."
     }
-  ]
+  ],
+  "updated": "2026-09-17"
 }

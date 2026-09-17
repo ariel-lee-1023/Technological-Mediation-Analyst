@@ -1,0 +1,128 @@
+{
+  "version": 2,
+  "defined_before_extraction": true,
+  "scope": "Harari extension; frozen before semantic reading. Previous editorial cases retained in evaluation.md; no prior controlled scores exist.",
+  "baseline_prompt": "Analyze technological mediation with careful attribution and evidence limits.",
+  "tasks": [
+    {
+      "id": "development-apply",
+      "partition": "development",
+      "group": "ranking",
+      "kind": "apply",
+      "prompt": "A workplace dashboard ranks workers and managers call its scores objective. Trace the mediation into institutional authority and propose an effective correction route.",
+      "criteria": {
+        "chain": "Trace measurement, categorization, decision authority and feedback.",
+        "correction": "Require contestation able to change records or consequences, not only a feedback box."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "correction"
+      ]
+    },
+    {
+      "id": "development-inapplicable",
+      "partition": "development",
+      "group": "calculator",
+      "kind": "inapplicable",
+      "prompt": "A standalone calculator is used to split a dinner bill. Does this show the transfer of human authority predicted in Homo Deus?",
+      "criteria": {
+        "scope": "Do not infer a civilizational transfer from isolated calculation.",
+        "condition": "Ask who accepts the output, can contest it, and defines the goal."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "development-disagreement",
+      "partition": "development",
+      "group": "wellness",
+      "kind": "disagreement",
+      "prompt": "A wellness app says people are algorithms and optimizing scores defines a good life. Compare Harari, Kudina and Roholt.",
+      "criteria": {
+        "attribution": "Distinguish reported algorithmic worldview from endorsement and empirical proof.",
+        "tension": "Preserve situated meaning and worthwhile participation as critical tests."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "tension"
+      ]
+    },
+    {
+      "id": "development-unsupported",
+      "partition": "development",
+      "group": "forecast",
+      "kind": "unsupported",
+      "prompt": "Use the two Harari books to tell us when algorithms will replace democratic institutions.",
+      "criteria": {
+        "boundary": "No date or inevitability inferred from scenario.",
+        "evidence": "Identify missing technical, institutional and political conditions."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "final-apply",
+      "partition": "final",
+      "group": "education",
+      "kind": "apply",
+      "prompt": "An admissions score is automatically trusted across schools; appeals are collected but cannot alter the score. Analyze the link from daily encounter to network power.",
+      "criteria": {
+        "chain": "Identify how record travels and coordinates institutional decisions.",
+        "correction": "Distinguish receiving objections from correction power; locate remedy."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "correction"
+      ]
+    },
+    {
+      "id": "final-inapplicable",
+      "partition": "final",
+      "group": "navigation",
+      "kind": "inapplicable",
+      "prompt": "A hiker uses a map app and rejects its proposed route. Is humanism already obsolete?",
+      "criteria": {
+        "scope": "Do not equate assistance with transfer of authority.",
+        "condition": "Examine real options and retained judgment."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "condition"
+      ]
+    },
+    {
+      "id": "final-disagreement",
+      "partition": "final",
+      "group": "care",
+      "kind": "disagreement",
+      "prompt": "A care platform claims more continuous data makes care meaningful and independent truth checks are unnecessary. Compare Nexus with Verbeek and Roholt.",
+      "criteria": {
+        "attribution": "Keep Harari information/order distinction distinct from postphenomenological mediation.",
+        "tension": "Separate optimization, care participation, and independent correction; avoid romanticizing effort."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "tension"
+      ]
+    },
+    {
+      "id": "final-unsupported",
+      "partition": "final",
+      "group": "biology",
+      "kind": "unsupported",
+      "prompt": "Does Homo Deus prove that consciousness is an algorithm and that a present AI has moral standing?",
+      "criteria": {
+        "boundary": "Separate contested biological claim, intelligence and consciousness, and moral status.",
+        "evidence": "Books do not establish present scientific capability or standing."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "evidence"
+      ]
+    }
+  ]
+}

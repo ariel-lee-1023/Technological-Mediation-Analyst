@@ -1,8 +1,8 @@
 # Technological Mediation Analyst
 
-An Agent Skill for analyzing how technologies reshape **perception, action, moral judgment, and meaningful life**. It supports postphenomenological analysis, product and UX design review, AI and automation cases, qualitative research, and reflection on everyday technological practices.
+An Agent Skill for analyzing how technologies reshape **perception, action, moral judgment, institutional power, and meaningful life**. It supports postphenomenological analysis, product and UX design review, AI and automation cases, qualitative research, and reflection on everyday technological practices.
 
-Distilled from **six books**, it combines a shared reasoning core with source references loaded only when the question needs them. The analyst starts with a concrete encounter and follows what the technology makes visible, possible, expected, or difficult—then explains why those changes matter.
+Distilled from **eight books**, it combines a shared reasoning core with source references loaded only when the question needs them. The analyst starts with a concrete encounter and follows what the technology makes visible, possible, expected, or difficult—then explains why those changes matter.
 
 ## Layout
 
@@ -44,6 +44,17 @@ fidelity-ledger/                  # provenance, coverage, evaluation, validation
 |---|---|
 | **Distracted from Meaning: A Philosophy of Smartphones** — Tiger C. Roholt, Bloomsbury Academic, 2023 | [Distracted from Meaning](references/reference-roholt-distracted-from-meaning.md): developed experience, focal practices, identity-work, and distraction beyond performance costs |
 
+### Institutions and changing understandings of human life
+
+Harari remains a distinct, critically examined contributor. His arguments extend the scale of inquiry while the analyst retains its starting point in situated human–technology relations.
+
+| Source | Distillation and contribution |
+|---|---|
+| **Nexus: A Brief History of Information Networks from the Stone Age to AI** — Yuval Noah Harari, Random House, 2024 | [Nexus](references/reference-harari-nexus.md): information as connection, truth and order, stories and bureaucracy, trust, authority, self-correction, and conditional computer politics |
+| **Homo Deus: A Brief History of Tomorrow** — Yuval Noah Harari; consulted as *Homo Deus: Masa Depan Umat Manusia*, translated by Yanto Musthofa, Pustaka Alvabet, 2018 | [Homo Deus](references/reference-harari-homo-deus.md): algorithmic authority, humanism, Dataism, data-mediated self-understanding, enhancement, and conditional futures |
+
+The new references provide source locators, diagnostic questions, one reconstructed example per book, and explicit tensions with existing authors. They distinguish historical evidence reported by Harari, philosophical arguments, normative proposals, and speculative scenarios. The two books together connect how information organizes institutions with whose experience and purposes count within them.
+
 ## Install
 
 Clone into your agent's configured skill directory, using `technological-mediation-analyst` as the folder name. For a host configured to discover skills in `~/.agents/skills/`:
@@ -64,6 +75,9 @@ technological-mediation-analyst for <book or concept>
 
 Examples:
 
+- “Trace how this admissions score moves from a screen to institutional authority. Who can correct it?”
+- “Our wellness app defines improvement through its metrics. Compare Harari with Kudina and Roholt.”
+- “Turn this claim about algorithmic replacement into a conditional scenario: which premises and choices matter?”
 - “Review this AI writing assistant. What does it change about writing, learning, and authorship?”
 - “Analyze how a workplace productivity score changes what workers and managers treat as good work.”
 - “Would automating this task remove a burden or remove meaningful participation? Compare the alternatives.”
@@ -86,7 +100,7 @@ The edited collection's authors retain their own positions. Feenberg's instituti
 
 Strongest on human–technology relations, postphenomenological criticism, moral mediation, values in use, design reasoning, qualitative inquiry, and meaningful participation. Contemporary AI cases are applications of these frameworks; the corpus does not establish current model capabilities or causal effect sizes.
 
-Historical clinical and legal examples are philosophical case material, not present guidance. Current scientific, clinical, technical, or jurisdiction-specific facts require separate evidence. The Ihde conversion has OCR losses; substantial missing text in Moralizing Technology was repaired against the matching PDF. Exact quotations and disputed textual details require consulting the original source.
+Historical clinical and legal examples are philosophical case material, not present guidance. Current scientific, clinical, technical, or jurisdiction-specific facts require separate evidence. The Ihde conversion has OCR losses; substantial missing text in Moralizing Technology was repaired against the matching PDF. The supplied Homo Deus Markdown contained only page markers and image placeholders. Its accompanying 540-page scan was OCRed locally; it is an Indonesian translation, so the English reference is a synthesis through that translation. Exact English wording is not verified. Exact quotations and disputed textual details require consulting the original source.
 
 ## Provenance and validation
 
@@ -96,6 +110,8 @@ Built with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skil
 - [Source manifest](fidelity-ledger/source-manifest.json): source basenames and hashes without private absolute paths.
 - [Evaluation cases](fidelity-ledger/evaluation.md): editorial acceptance probes and their limitations; not an independent model benchmark.
 - [Validation results](fidelity-ledger/validation.json): executed structural, routing, and budget checks for the published layout.
+
+The 2026-09-17 extension has a frozen development/final task suite. Controlled three-condition behavioral evaluation remains **unrun** because no evaluation endpoint/model is configured; structural and editorial checks do not establish measured reasoning gains. See the [extension audit](fidelity-ledger/harari-extension.md) and [coverage audit](fidelity-ledger/coverage-audit.md).
 
 The canonical skill and references also pass the generated-instruction pattern scan. This advisory scan does not establish absence of every possible issue. No raw books, temporary corpus, or source attachments are published.
 

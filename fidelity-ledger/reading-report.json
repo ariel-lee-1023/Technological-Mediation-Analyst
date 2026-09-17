@@ -1,0 +1,18 @@
+{
+  "nexus": {
+    "unique_lines": 366,
+    "repeated_lines": 19,
+    "input_tokens": 52102,
+    "unresolved": [],
+    "coverage_fraction": 0.05483967635600839,
+    "budget_alert": true
+  },
+  "homo-deus-ocr": {
+    "unique_lines": 3197,
+    "repeated_lines": 0,
+    "input_tokens": 39010,
+    "unresolved": [],
+    "coverage_fraction": 0.13243030528975602,
+    "budget_alert": true
+  }
+}

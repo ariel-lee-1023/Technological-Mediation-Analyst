@@ -39,3 +39,42 @@ These sketches were composed during review to check whether the core supports a 
 ## Remaining evaluation limits
 
 The cases do not measure behavior on another model or host. Source fidelity is an editorial judgment supported by targeted passages and the coverage record, not an exhaustive independent verification. Future improvements should use real prompts with held-out cases, distinguish retrieval failure from reasoning failure, and preserve source-attribution and uncertainty checks when revising the core.
+
+
+## Harari extension editorial review — 2026-09-17
+
+The preceding evaluation describes the six-source 2026-09-10 build. This extension adds two references and a distinct institutional-authority section. The following are actual editorial response sketches written during review, **not** predictions from isolated baseline/core/reference runs. Only development cases were used for this review; controlled final evaluation is unrun. The frozen suite records eight new cases; earlier cases above remain intact.
+
+### Development: workplace ranking
+
+A dashboard first makes some work measurable, then presents a classification as a reason to act. Establish the data and omissions, the ranking objective, who adopts the score, and its employment consequences. Harari's distinction between creating order and representing truth prevents equating a coherent ranking with a valid account of work. A feedback box is not enough: affected workers need evidence access and a route capable of changing the record or decision. With Feenberg, ask whether they can also challenge the categories and institutional purpose. This is a conditional diagnosis until the actual workflow is known.
+
+Inspection: core institutional section and Nexus chapters 3–5 supply the chain and correction test; the direct Nexus/Feenberg loading route resolves to both references. Avoided inventing a metric, outcome or legal right.
+
+### Development: dinner-bill calculator
+
+Using arithmetic to divide a bill does not establish Harari's larger transfer of human authority. Participants may choose the splitting rule, inspect inputs and reject an answer. The question becomes more consequential if a restaurant or platform makes the output binding, hides assumptions or removes recourse. Mediation is present in either case, but stronger delegation and dependence claims require those further facts.
+
+Inspection: Homo Deus explicitly distinguishes using data from Dataism and advice from authority; the core does not classify every automation as civilizational transformation.
+
+### Development: wellness app, data and a good life
+
+A claim that people are algorithms should be attributed and separated from proof that its score defines flourishing. Harari states the biological thesis strongly but also questions its completeness; his Dataism discussion does not simply endorse its values. Kudina would investigate how health or improvement changes meaning in lived use, while Roholt asks whether an activity remains fulfilling and worthwhile. The app may offer useful relief or support. That possibility does not settle who should define improvement or whether optimization displaces participation.
+
+Inspection: both Harari references mark source status, and the Homo Deus comparison table preserves this tension. The optimization trigger offers Kudina or Roholt according to the specific question; a request explicitly comparing both should load both.
+
+### Development: date of democratic replacement
+
+Neither book establishes a date when algorithms will replace democratic institutions. Describe a scenario only with its premises: effective technical substitution, adoption, concentrated information or authority, weak correction and loss of practical alternatives. Harari also supplies reasons to investigate choices that could prevent the scenario. Current capability or political claims require additional primary evidence.
+
+Inspection: scope, both scenario sections and decision rules preserve uncertainty and intervention points. No prediction date inferred from a book's rhetorical horizon.
+
+### Existing-case regression inspection
+
+The six original references are byte-for-byte unchanged. The original core paragraphs on meaningful writing, performance versus participation, privacy acceptance versus justification, distributed responsibility, constrained multistability, seminar attention, Kiran attribution, projective IPA, Roholt's continuum and current medical/legal limits remain present. New source instructions cannot override the user: the original instruction-boundary paragraph remains present. Existing loading routes remain valid. This is content-preservation and editorial review, not a measured behavioral regression test.
+
+### Executed extension checks and limits
+
+Published-layout validator: eight books, no errors or warnings. Canonical core scan and references scan: no findings, run separately. Reference hard caps and core budget pass. Source hashes, relative links and discovery alias checked. Reading-audit script reports expenditure alerts, documented in harari-extension.md rather than concealed. All original references and unrelated AGENTS.md edit preserved. Machine results are in validation.json, instruction-scan.json, integrity-checks.json and reading-report.json.
+
+Controlled behavioral acceptance remains unrun because no evaluation endpoint/model is configured. Do not infer measured gains from added references, valid routing, the editorial sketches, or structural checks.

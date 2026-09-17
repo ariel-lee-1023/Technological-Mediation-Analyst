@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-17",
+  "original_reference_sha256_unchanged": {
+    "reference-verbeek-moralizing-technology.md": true,
+    "reference-ihde-technology-lifeworld.md": true,
+    "reference-kudina-moral-hermeneutics.md": true,
+    "reference-rosenberger-verbeek-postphenomenological-investigations.md": true,
+    "reference-roholt-distracted-from-meaning.md": true,
+    "reference-verbeek-what-things-do.md": true
+  },
+  "unrelated_agents_edit_preserved": true,
+  "relative_markdown_links_checked": 40,
+  "broken_links": [],
+  "discovery_symlink": "../..",
+  "discovery_resolves_to_root": true,
+  "references": 8,
+  "raw_source_files_present": [],
+  "runtime_hash": "sha256:0a025b39954ee6d8ccca90faa0b837036a81319e683121a934e9ad1568292c18"
+}

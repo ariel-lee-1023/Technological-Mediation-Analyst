@@ -5,26 +5,10 @@
     "skill_root": ".",
     "discovery_entry": ".agents/skills/technological-mediation-analyst",
     "layout": "published-repo",
-    "master_body_tokens": 3820,
-    "master_budget": 3900,
-    "master_capabilities": 6,
+    "master_body_tokens": 2816,
+    "master_budget": 3400,
+    "master_capabilities": 5,
     "references": {
-      "reference-harari-homo-deus.md": {
-        "tokens": 5459,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 11,
-        "budget": 8275
-      },
-      "reference-harari-nexus.md": {
-        "tokens": 4576,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 11,
-        "budget": 8275
-      },
       "reference-ihde-technology-lifeworld.md": {
         "tokens": 3630,
         "cap": 14000,
@@ -74,6 +58,6 @@
         "budget": 7269
       }
     },
-    "books": 8
+    "books": 6
   }
 }
