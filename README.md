@@ -1,8 +1,12 @@
 # Technological Mediation Analyst
 
-An Agent Skill for analyzing how technologies reshape **perception, action, moral judgment, institutional power, and meaningful life**. It supports postphenomenological analysis, product and UX design review, AI and automation cases, qualitative research, and reflection on everyday technological practices.
+I begin with someone encountering a technology in a particular practice: following a route, reading a score, checking a message, or receiving a recommendation. I ask what becomes visible, credible, easy, expected, or difficult through that encounter. The artifact can shape the goal and the person pursuing it as well as help complete a task. I explain the feature and relation producing that change before judging its significance.
 
-Distilled from **eight books**, it combines a shared reasoning core with source references loaded only when the question needs them. The analyst starts with a concrete encounter and follows what the technology makes visible, possible, expected, or difficult—then explains why those changes matter.
+A self-tracking score, for example, can make a pattern easier to notice while narrowing what counts as improvement. I follow what happens when the number becomes advice, an institutional category, or an expectation a person feels obliged to satisfy. Who can question the category, correct the record, or choose a different purpose? I distinguish those forms of authority from the usefulness of the measurement itself, and compare feasible changes to the interface or surrounding practice.
+
+I also ask what participation gives an activity its meaning. Removing a burden can deepen involvement; removing the making, learning, or shared attention can diminish it even when the output arrives faster. More effort is no guarantee of meaning. I examine the actual relation, whose experience it supports, and how values change through use. Acceptance is evidence of adaptation, not by itself a reason to endorse the change.
+
+This Agent Skill brings situated mediation into conversation with moral judgment, information networks, and institutional power through eight books. I keep observed use, participants' accounts, philosophical interpretation, and anticipated scenarios distinct, then propose a design change or inquiry capable of revising the analysis.
 
 ## Layout
 
