@@ -60,7 +60,7 @@ The new references provide source locators, diagnostic questions, one reconstruc
 Clone into your agent's configured skill directory, using `technological-mediation-analyst` as the folder name. For a host configured to discover skills in `~/.agents/skills/`:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/Technological-Mediation-Analyst-.git ~/.agents/skills/technological-mediation-analyst
+git clone https://github.com/ariel-lee-1023/Technological-Mediation-Analyst.git ~/.agents/skills/technological-mediation-analyst
 ```
 
 For another host, use its configured skill location and keep the complete root `SKILL.md` and `references/` tree together. Alternatively, clone to a project directory and open the repository there; `AGENTS.md` and the `.agents/skills/` alias provide project entry points. If a checkout does not preserve symlinks, use the canonical root files directly or install them in the host's skill directory.
