@@ -43,9 +43,9 @@ Begin with what artifacts do in people's lives. Technologies help constitute how
 
 - **Borgmann's device paradigm.** A device makes a commodity readily available while the machinery and associated effort withdraw. Availability promises immediacy, ubiquity, safety, and ease. Ask whether a practice has been reduced to procuring an output and which forms of engagement are displaced.
 - **Focal things and practices.** Some activities gather meaningful involvement with things, people, and surroundings. A focal practice sustains that involvement through regular dedication. Its value cannot be exhausted by naming a commodity that a device could supply more efficiently.
-- **Two forms of engagement.** Verbeek distinguishes necessary effort from meaningful involvement. Losing the labor of fetching water does not by itself show loss of the good life. Conversely, eliminating effort within an intrinsically meaningful activity can remove what made participation valuable.
+- **Two forms of engagement.** Necessary effort differs from meaningful involvement. Losing the labor of fetching water does not by itself show loss of the good life. Conversely, eliminating effort within an intrinsically meaningful activity can remove what made participation valuable.
 - **Engaging devices.** Technology can support rather than only erode engagement. Distinguish involvement with the artifact, its surrounding context, and what it makes available. A sophisticated musical instrument or a technologically enabled practice can be deeply involving; age and simplicity are poor proxies for meaning.
-- **Critical use of Borgmann.** Preserve the question of the good life but test the proposed contrast against actual devices and practices. Verbeek rejects the inference that all modern convenience necessarily destroys meaningful engagement. Keep this disagreement visible when combining his work with Roholt's use of Borgmann.
+- **Critical use of Borgmann.** Preserve the question of the good life but test the proposed contrast against actual devices and practices. Modern convenience does not necessarily destroy meaningful engagement. Keep this disagreement visible when combining his work with Roholt's use of Borgmann.
 
 ### 7. Artifacts in Design
 
@@ -58,10 +58,10 @@ Begin with what artifacts do in people's lives. Technologies help constitute how
 
 ### 1–2. Philosophy Beyond Things: Jaspers and Heidegger
 
-- **Jaspers: technology and the self.** Mass production, the apparatus, and mass existence raise questions about how people can become themselves within organized technical life. His later approach treats technology as limited means needing direction. Verbeek finds the neutrality assumption insufficient because technical means themselves help shape ends and experience.
+- **Jaspers: technology and the self.** Mass production, the apparatus, and mass existence raise questions about how people can become themselves within organized technical life. His later approach treats technology as limited means needing direction. The neutrality assumption is insufficient because technical means themselves help shape ends and experience. [Chapter 1: criticism of Jaspers]
 - **Heidegger: revealing, enframing, standing-reserve.** Technology can disclose reality as orderable resource rather than as neutral material awaiting use. This exposes a substantive philosophical problem, but a diagnosis at the level of modern technology's essence cannot substitute for discriminating between actual technologies and possible alternatives.
-- **Readiness-to-hand and presence-at-hand.** Equipment ordinarily withdraws within practical involvement; malfunction can make it conspicuous as an object. Verbeek uses these distinctions to reopen concrete material relations rather than infer that things have no active role while they work.
-- **The thing things.** Heidegger's later account of things draws attention to gathering and meaningful presence. Verbeek brings this concern into dialogue with technical artifacts instead of reserving significant presence for a favored set of traditional objects.
+- **Readiness-to-hand and presence-at-hand.** Equipment ordinarily withdraws within practical involvement; malfunction can make it conspicuous as an object. These distinctions reopen concrete material relations; they do not imply that things have no active role while they work.
+- **The thing things.** Heidegger's later account of things draws attention to gathering and meaningful presence. Technical artifacts can also be considered through gathering and meaningful presence; significance need not be reserved for a favored set of traditional objects. [Chapter 2: extension of Heidegger]
 - **The Orphic temptation.** An exclusive backward search for technology's conditions of possibility loses sight of concrete artifacts. Avoid replacing what things do with a general account of their origin, worldview, or essence. The remedy is philosophical analysis from and for things, not rejection of historical or ontological inquiry.
 
 ## Worked Example

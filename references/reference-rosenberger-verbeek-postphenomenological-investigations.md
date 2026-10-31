@@ -49,7 +49,7 @@ Kiran supplies four perspectives on the two-sided character of mediation. Apply 
 
 ### 4. Thinking Technology with Merleau-Ponty — Aud Sissel Hoel and Annamaria Carusi, pp. 73–84
 
-- **Later Merleau-Ponty and indirect ontology.** The authors turn to expressive and relational resources in his later work, where symbolisms and artifacts contribute to how a world becomes accessible. Do not restrict his relevance to the familiar early account of bodily tool incorporation.
+- **Later Merleau-Ponty and indirect ontology.** Expressive and relational resources in the later work explain how symbolisms and artifacts contribute to a world becoming accessible. [Hoel and Carusi, pp. 73–84] Do not restrict his relevance to the familiar early account of bodily tool incorporation.
 - **The measuring body.** Hoel and Carusi name a perceptual, symbolic, and technologically distributed system that supplies standards for encountering the world while being shaped by what it encounters. **Flesh**, **in-each-otherness (Ineinander)**, and the **circuit** emphasize this reciprocal formation. Measurement here exceeds numerical recording: tools and symbolisms help institute a style of seeing and knowing.
 - **Instruments as productive of intelligibility.** Investigate how an instrument changes the relation in which something can be expressed and known. “An extension of the senses” can be too weak a description. The chapter is a conceptual resource for mediation, not evidence about the accuracy of a particular instrument.
 
@@ -109,7 +109,7 @@ Kiran supplies four perspectives on the two-sided character of mediation. Apply 
 ### 16. Stability, Instability, and Phenomenology — Albert Borgmann, pp. 247–251
 
 - **Apparent continuity of vision.** “Powers of ten” presentations can smooth over transitions from ordinary embodied seeing to reading instruments and rendered data. Reconstruct those transitions instead of treating a seamless animation as one homogeneous view.
-- **Normative challenge to variation.** Showing the many ways things can appear leaves open which things should matter decisively and how people learn to attend to them. Borgmann presses the field toward questions of significance beyond identifying multiplicity. Do not report this as the editors' resolution of the dispute.
+- **Normative challenge to variation.** Showing the many ways things can appear leaves open which things should matter decisively and how people learn to attend to them. Questions of significance remain beyond identifying multiplicity. [Borgmann, pp. 247–251] Do not report this as the editors' resolution of the dispute.
 
 ## Worked Example
 
